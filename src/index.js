@@ -1,4 +1,4 @@
-module.exports = {
+module.exports = () => ({
 	sourceMaps: true,
 	plugins: [
 		[
@@ -14,4 +14,4 @@ module.exports = {
 			},
 		],
 	],
-};
+});
